@@ -65,14 +65,6 @@ Durante o desenvolvimento foram utilizados diversos recursos do Bootstrap, como:
 - Badges
 - Classes de responsividade
 
-## 🌐 Links
-
-### GitHub
-https://github.com/hugohilarion-create/Projeto-GameZone
-
-### Site publicado
-https://gamezone-henna.vercel.app/
-
 ## 📱 Responsividade
 
 O site foi desenvolvido para funcionar em diferentes tamanhos de tela:
