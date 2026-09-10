@@ -152,8 +152,7 @@ Durante o desenvolvimento foram utilizados diversos recursos do Bootstrap, como:
 ### GitHub
 https://github.com/hugohilarion-create/Projeto-GameZone
 
-### Site publicado
-https://gamezone-henna.vercel.app/
+https://projeto-game-zone.vercel.app/
 
 ## 📱 Responsividade
 
