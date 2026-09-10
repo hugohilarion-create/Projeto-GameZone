@@ -80,7 +80,6 @@ Exemplo:
 
 ```html
 
-=======
 # 🎮 GameZone
 
 ![GameZone](gamezone.png)
