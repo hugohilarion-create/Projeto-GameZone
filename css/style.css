@@ -1,0 +1,248 @@
+/* =========================
+   CONFIGURAÇÕES GERAIS
+========================= */
+
+body {
+    background-color: #0f172a;
+    color: #ffffff;
+}
+
+
+/* =========================
+   HERO
+========================= */
+
+section:first-child {
+    background: linear-gradient(135deg, #111827, #312e81, #581c87);
+    padding: 100px 20px !important;
+}
+
+section:first-child h1 {
+    color: #ffffff;
+    font-size: 3.5rem;
+}
+
+section:first-child p {
+    color: #dbeafe;
+}
+
+
+/* =========================
+   ALERTA
+========================= */
+
+.alert {
+    margin-top: 30px;
+}
+
+/* =========================
+   TÍTULO DOS JOGOS
+========================= */
+
+h2 {
+    color: #ffffff;
+}
+
+
+/* =========================
+   CARDS
+========================= */
+
+.card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: 0.3s;
+    height: 100%;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4) !important;
+}
+
+
+/* Imagens dos Cards */
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+
+/* Conteúdo dos Cards */
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    color: #111827;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-body .btn {
+    margin-top: auto;
+    align-self: flex-start;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+    margin-top: 50px;
+}
+
+/* =========================
+   NAVBAR
+========================= */
+
+.navbar-brand {
+    font-size: 1.4rem;
+}
+
+.navbar .nav-link {
+    transition: 0.3s;
+}
+
+.navbar .nav-link:hover {
+    color: #a78bfa !important;
+}
+
+.navbar .nav-link.active {
+    color: #c4b5fd !important;
+    font-weight: bold;
+}
+
+/* =========================
+   HERO - ESTILO GAMER
+========================= */
+
+section:first-child h1 {
+    text-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+section:first-child p {
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+}
+
+/* Botão principal */
+section:first-child .btn {
+    padding: 12px 30px;
+    border-radius: 50px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* Efeito no botão */
+section:first-child .btn:hover {
+    transform: scale(1.08);
+}
+
+/* =========================
+   CARDS - ESTILO GAMER
+========================= */
+
+.card {
+    border-radius: 18px;
+    overflow: hidden;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+/* Efeito ao passar o mouse */
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5) !important;
+    border-color: #8b5cf6;
+}
+
+/* Imagem */
+.card-img-top {
+    height: 210px;
+    object-fit: cover;
+    transition: 0.3s;
+}
+
+/* Zoom na imagem */
+.card:hover .card-img-top {
+    transform: scale(1.05);
+}
+
+/* Título */
+.card-title {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+/* Descrição */
+.card-text {
+    color: #4b5563;
+}
+
+/* Botões dos Cards */
+.card .btn {
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+/* =========================
+   CATEGORIAS
+========================= */
+
+section .btn {
+    transition: 0.3s;
+}
+
+section .btn:hover {
+    transform: translateY(-3px);
+}
+
+/* 1. Ajuste do banner de aviso */
+.alert-custom {
+  background-color: rgba(130, 87, 229, 0.15);
+  border: 1px solid #8257e5;
+  color: #e1e1e6;
+}
+
+/* 2. Padronização da altura das imagens dos cards */
+.card-img-top {
+  height: 180px;
+  object-fit: cover;
+}
+
+/* 3. Efeito de elevação (Hover) nos cards */
+.card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(130, 87, 229, 0.3);
+}
+
+/* 4. Espaçamento do rodapé */
+footer {
+  padding: 30px 0;
+}
+
+.alert-custom {
+  background-color: rgba(130, 87, 229, 0.15);
+  border: 1px solid #8257e5;
+  color: #e1e1e6;
+}
+
+.btn-roxo {
+  background-color: #8257e5;
+  color: #ffffff;
+  border: none;
+}
+
+.btn-roxo:hover {
+  background-color: #996dff; /* Tom um pouco mais claro ao passar o mouse */
+  color: #ffffff;
+}
